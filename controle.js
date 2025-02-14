@@ -1,4 +1,4 @@
-let numero = 5; // Você pode alterar esse valor para testar outros números
+let numero = 5; 
 
 if (numero > 0) {
   console.log("O número é positivo.");
