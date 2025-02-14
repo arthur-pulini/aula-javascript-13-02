@@ -24,3 +24,21 @@ console.log("Usuário:", usuario);
   Exemplo:
   let exemploUndefined;  // variável sem valor definido, automaticamente recebe undefined
 */
+
+
+// Exercício 2
+
+let valorNulo = null;
+let valorIndefinido;
+
+if (valorNulo === null) {
+  console.log("valorNulo é null");
+} else if (valorNulo === undefined) {
+  console.log("valorNulo é undefined");
+}
+
+if (valorIndefinido === null) {
+  console.log("valorIndefinido é null");
+} else if (valorIndefinido === undefined) {
+  console.log("valorIndefinido é undefined");
+}
